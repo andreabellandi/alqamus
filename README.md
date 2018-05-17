@@ -1,0 +1,3 @@
+# alqamus
+
+It's just some experimentation to test some restful api features ...
