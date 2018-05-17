@@ -1,0 +1,1069 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://quamus.ilc.cnr.it/quamus#"
+     xml:base="http://quamus.ilc.cnr.it/quamus"
+     xmlns:quamusLemon="http://quamus.ilc.cnr.it/quamusLemon.owl#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:ns="http://creativecommons.org/ns#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:lexinfo="http://ditmao.ilc.cnr.it:8082/DitamoOntologies/lexinfo.owl#"
+     xmlns:lemon="http://ditmao.ilc.cnr.it:8082/DitamoOntologies/lemon.rdf#"
+     xmlns:dcr="http://www.isocat.org/ns/dcr.rdf#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:terms="http://purl.org/dc/terms/"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:elements="http://purl.org/dc/elements/1.1/#"
+     xmlns:vann="http://purl.org/vocab/vann/">
+    <owl:Ontology rdf:about="http://quamus.ilc.cnr.it/quamus">
+        <owl:imports rdf:resource="http://ditmao.ilc.cnr.it:8082/DitamoOntologies/quamusLemon.owl"/>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://quamus.ilc.cnr.it/quamusLemon.owl#note -->
+
+
+    <owl:DatatypeProperty rdf:about="http://quamus.ilc.cnr.it/quamusLemon.owl#note"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://quamus.ilc.cnr.it/quamus#QUAMUS_LEXICON -->
+
+
+    <owl:NamedIndividual rdf:about="http://quamus.ilc.cnr.it/quamus#QUAMUS_LEXICON">
+        <rdf:type rdf:resource="http://ditmao.ilc.cnr.it:8082/DitamoOntologies/lemon.rdf#Lexicon"/>
+        <lemon:entry rdf:resource="http://quamus.ilc.cnr.it/quamus#آدَبَ_ar_entry"/>
+        <lemon:entry rdf:resource="http://quamus.ilc.cnr.it/quamus#أجَأَ_ar_entry"/>
+        <lemon:entry rdf:resource="http://quamus.ilc.cnr.it/quamus#أَباءة_ar_entry"/>
+        <lemon:entry rdf:resource="http://quamus.ilc.cnr.it/quamus#أَدَبَ_ar_entry"/>
+        <lemon:entry rdf:resource="http://quamus.ilc.cnr.it/quamus#أَرُبَ_ar_entry"/>
+        <lemon:entry rdf:resource="http://quamus.ilc.cnr.it/quamus#العَرَبَة_ar_entry"/>
+        <lemon:entry rdf:resource="http://quamus.ilc.cnr.it/quamus#تَقَيَّحَ_ar_entry"/>
+        <lemon:entry rdf:resource="http://quamus.ilc.cnr.it/quamus#دَخِيل_ar_entry"/>
+        <lemon:entry rdf:resource="http://quamus.ilc.cnr.it/quamus#دَعَى_ar_entry"/>
+        <lemon:entry rdf:resource="http://quamus.ilc.cnr.it/quamus#صَرِيح_ar_entry"/>
+        <lemon:entry rdf:resource="http://quamus.ilc.cnr.it/quamus#عَرَبَة_ar_entry"/>
+        <lemon:entry rdf:resource="http://quamus.ilc.cnr.it/quamus#عَرِبَ_ar_entry"/>
+        <lemon:entry rdf:resource="http://quamus.ilc.cnr.it/quamus#عَمِلَ_ar_entry"/>
+        <lemon:entry rdf:resource="http://quamus.ilc.cnr.it/quamus#عُرْب_ar_entry"/>
+        <lemon:entry rdf:resource="http://quamus.ilc.cnr.it/quamus#غَمَرَ_ar_entry"/>
+        <lemon:entry rdf:resource="http://quamus.ilc.cnr.it/quamus#فَسَدَ_ar_entry"/>
+        <lemon:entry rdf:resource="http://quamus.ilc.cnr.it/quamus#قَصَبَة_ar_entry"/>
+        <lemon:entry rdf:resource="http://quamus.ilc.cnr.it/quamus#مُتَعَرِّب_ar_entry"/>
+        <lemon:entry rdf:resource="http://quamus.ilc.cnr.it/quamus#نَشِطَ_ar_entry"/>
+        <lemon:entry rdf:resource="http://quamus.ilc.cnr.it/quamus#نَفس_ar_entry"/>
+        <lemon:entry rdf:resource="http://quamus.ilc.cnr.it/quamus#نَهْر_ar_entry"/>
+        <lemon:entry rdf:resource="http://quamus.ilc.cnr.it/quamus#وَرِمَ_ar_entry"/>
+        <lemon:language rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ar</lemon:language>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://quamus.ilc.cnr.it/quamus#null -->
+
+
+    <owl:NamedIndividual rdf:about="http://quamus.ilc.cnr.it/quamus#null">
+        <lemon:writtenRep rdf:datatype="http://www.w3.org/2001/XMLSchema#string">أَباء</lemon:writtenRep>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://quamus.ilc.cnr.it/quamus#آدَبَ_ar_entry -->
+
+
+    <owl:NamedIndividual rdf:about="http://quamus.ilc.cnr.it/quamus#آدَبَ_ar_entry">
+        <rdf:type rdf:resource="http://ditmao.ilc.cnr.it:8082/DitamoOntologies/lemon.rdf#Word"/>
+        <lemon:canonicalForm rdf:resource="http://quamus.ilc.cnr.it/quamus#آدَبَ_ar_lemma"/>
+        <lemon:sense rdf:resource="http://quamus.ilc.cnr.it/quamus#آدَبَ_ar_sense1"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://quamus.ilc.cnr.it/quamus#آدَبَ_ar_lemma -->
+
+
+    <owl:NamedIndividual rdf:about="http://quamus.ilc.cnr.it/quamus#آدَبَ_ar_lemma">
+        <rdf:type rdf:resource="http://ditmao.ilc.cnr.it:8082/DitamoOntologies/lemon.rdf#Form"/>
+        <lexinfo:partOfSpeech rdf:resource="http://ditmao.ilc.cnr.it:8082/DitamoOntologies/lexinfo.owl#verb"/>
+        <lexinfo:termElement rdf:resource="http://quamus.ilc.cnr.it/quamusLemon.owl#triliteral"/>
+        <quamusLemon:transitivity rdf:resource="http://quamus.ilc.cnr.it/quamusLemon.owl#transitive"/>
+        <quamusLemon:verbForm rdf:resource="http://quamus.ilc.cnr.it/quamusLemon.owl#III"/>
+        <lemon:writtenRep rdf:datatype="http://www.w3.org/2001/XMLSchema#string">آدَبَ</lemon:writtenRep>
+        <quamusLemon:root rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ء د ب</quamusLemon:root>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://quamus.ilc.cnr.it/quamus#آدَبَ_ar_sense1 -->
+
+
+    <owl:NamedIndividual rdf:about="http://quamus.ilc.cnr.it/quamus#آدَبَ_ar_sense1">
+        <rdf:type rdf:resource="http://ditmao.ilc.cnr.it:8082/DitamoOntologies/lemon.rdf#LexicalSense"/>
+        <lemon:equivalent rdf:resource="http://quamus.ilc.cnr.it/quamus#أَدَبَ_ar_sense1"/>
+        <quamusLemon:troponym rdf:resource="http://quamus.ilc.cnr.it/quamus#دَعَى_ar_sense1"/>
+        <lemon:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">أَدَبَهُ يَأْدِبُهُ: دَعاهُ إلى طَعامِهِ، كآدَبَه إيداباً</lemon:value>
+        <quamusLemon:sumoRef rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Communication+</quamusLemon:sumoRef>
+        <quamusLemon:translation_text rdf:datatype="http://www.w3.org/2001/XMLSchema#string">to invite, ask to come</quamusLemon:translation_text>
+        <quamusLemon:wnRef rdf:datatype="http://www.w3.org/2001/XMLSchema#string">01469770</quamusLemon:wnRef>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://quamus.ilc.cnr.it/quamus#أجَأَ_ar_entry -->
+
+
+    <owl:NamedIndividual rdf:about="http://quamus.ilc.cnr.it/quamus#أجَأَ_ar_entry">
+        <rdf:type rdf:resource="http://ditmao.ilc.cnr.it:8082/DitamoOntologies/lemon.rdf#Word"/>
+        <lemon:canonicalForm rdf:resource="http://quamus.ilc.cnr.it/quamus#أجَأَ_ar_lemma"/>
+        <lemon:sense rdf:resource="http://quamus.ilc.cnr.it/quamus#أجَأَ_ar_sense1"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://quamus.ilc.cnr.it/quamus#أجَأَ_ar_lemma -->
+
+
+    <owl:NamedIndividual rdf:about="http://quamus.ilc.cnr.it/quamus#أجَأَ_ar_lemma">
+        <rdf:type rdf:resource="http://ditmao.ilc.cnr.it:8082/DitamoOntologies/lemon.rdf#Form"/>
+        <lexinfo:partOfSpeech rdf:resource="http://ditmao.ilc.cnr.it:8082/DitamoOntologies/lexinfo.owl#verb"/>
+        <lexinfo:termElement rdf:resource="http://quamus.ilc.cnr.it/quamusLemon.owl#triliteral"/>
+        <quamusLemon:transitivity rdf:resource="http://quamus.ilc.cnr.it/quamusLemon.owl#intransitive"/>
+        <quamusLemon:verbForm rdf:resource="http://quamus.ilc.cnr.it/quamusLemon.owl#I"/>
+        <lemon:writtenRep rdf:datatype="http://www.w3.org/2001/XMLSchema#string">أجَأَ</lemon:writtenRep>
+        <quamusLemon:root rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ء ج ء</quamusLemon:root>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://quamus.ilc.cnr.it/quamus#أجَأَ_ar_sense1 -->
+
+
+    <owl:NamedIndividual rdf:about="http://quamus.ilc.cnr.it/quamus#أجَأَ_ar_sense1">
+        <rdf:type rdf:resource="http://ditmao.ilc.cnr.it:8082/DitamoOntologies/lemon.rdf#LexicalSense"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://quamus.ilc.cnr.it/quamus#أَباءة_ar_entry -->
+
+
+    <owl:NamedIndividual rdf:about="http://quamus.ilc.cnr.it/quamus#أَباءة_ar_entry">
+        <rdf:type rdf:resource="http://ditmao.ilc.cnr.it:8082/DitamoOntologies/lemon.rdf#Word"/>
+        <lemon:canonicalForm rdf:resource="http://quamus.ilc.cnr.it/quamus#أَباءة_ar_lemma"/>
+        <lemon:otherForm rdf:resource="http://quamus.ilc.cnr.it/quamus#أَباءة_ar_أَباء_form"/>
+        <lemon:sense rdf:resource="http://quamus.ilc.cnr.it/quamus#أَباءة_ar_sense1"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://quamus.ilc.cnr.it/quamus#أَباءة_ar_lemma -->
+
+
+    <owl:NamedIndividual rdf:about="http://quamus.ilc.cnr.it/quamus#أَباءة_ar_lemma">
+        <rdf:type rdf:resource="http://ditmao.ilc.cnr.it:8082/DitamoOntologies/lemon.rdf#Form"/>
+        <lexinfo:partOfSpeech rdf:resource="http://ditmao.ilc.cnr.it:8082/DitamoOntologies/lexinfo.owl#noun"/>
+        <lemon:writtenRep rdf:datatype="http://www.w3.org/2001/XMLSchema#string">أَباءة</lemon:writtenRep>
+        <quamusLemon:root rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ءبء</quamusLemon:root>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://quamus.ilc.cnr.it/quamus#أَباءة_ar_sense1 -->
+
+
+    <owl:NamedIndividual rdf:about="http://quamus.ilc.cnr.it/quamus#أَباءة_ar_sense1">
+        <rdf:type rdf:resource="http://ditmao.ilc.cnr.it:8082/DitamoOntologies/lemon.rdf#LexicalSense"/>
+        <lemon:equivalent rdf:resource="http://quamus.ilc.cnr.it/quamus#قَصَبَة_ar_sense1"/>
+        <lemon:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">الأَباءةُ، كَعَباءَة: القَصَبَةُ. ج. أَباءُ</lemon:value>
+        <quamusLemon:sumoRef rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BodyPart</quamusLemon:sumoRef>
+        <quamusLemon:translation_text rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cane, reed</quamusLemon:translation_text>
+        <quamusLemon:wnRef rdf:datatype="http://www.w3.org/2001/XMLSchema#string">112136206</quamusLemon:wnRef>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://quamus.ilc.cnr.it/quamus#أَباءة_ar_أَباء_form -->
+
+
+    <owl:NamedIndividual rdf:about="http://quamus.ilc.cnr.it/quamus#أَباءة_ar_أَباء_form">
+        <rdf:type rdf:resource="http://ditmao.ilc.cnr.it:8082/DitamoOntologies/lemon.rdf#Form"/>
+        <lexinfo:partOfSpeech rdf:resource="http://ditmao.ilc.cnr.it:8082/DitamoOntologies/lexinfo.owl#noun"/>
+        <lemon:writtenRep rdf:datatype="http://www.w3.org/2001/XMLSchema#string">أَباء</lemon:writtenRep>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://quamus.ilc.cnr.it/quamus#أَدَبَ_ar_entry -->
+
+
+    <owl:NamedIndividual rdf:about="http://quamus.ilc.cnr.it/quamus#أَدَبَ_ar_entry">
+        <rdf:type rdf:resource="http://ditmao.ilc.cnr.it:8082/DitamoOntologies/lemon.rdf#Word"/>
+        <lemon:canonicalForm rdf:resource="http://quamus.ilc.cnr.it/quamus#أَدَبَ_ar_lemma"/>
+        <lemon:sense rdf:resource="http://quamus.ilc.cnr.it/quamus#أَدَبَ_ar_sense1"/>
+        <lemon:sense rdf:resource="http://quamus.ilc.cnr.it/quamus#أَدَبَ_ar_sense2"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://quamus.ilc.cnr.it/quamus#أَدَبَ_ar_lemma -->
+
+
+    <owl:NamedIndividual rdf:about="http://quamus.ilc.cnr.it/quamus#أَدَبَ_ar_lemma">
+        <rdf:type rdf:resource="http://ditmao.ilc.cnr.it:8082/DitamoOntologies/lemon.rdf#Form"/>
+        <lexinfo:partOfSpeech rdf:resource="http://ditmao.ilc.cnr.it:8082/DitamoOntologies/lexinfo.owl#verb"/>
+        <lexinfo:termElement rdf:resource="http://quamus.ilc.cnr.it/quamusLemon.owl#triliteral"/>
+        <quamusLemon:transitivity rdf:resource="http://quamus.ilc.cnr.it/quamusLemon.owl#transitive"/>
+        <quamusLemon:verbForm rdf:resource="http://quamus.ilc.cnr.it/quamusLemon.owl#I"/>
+        <lemon:writtenRep rdf:datatype="http://www.w3.org/2001/XMLSchema#string">أَدَبَ</lemon:writtenRep>
+        <quamusLemon:root rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ء د ب</quamusLemon:root>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://quamus.ilc.cnr.it/quamus#أَدَبَ_ar_sense1 -->
+
+
+    <owl:NamedIndividual rdf:about="http://quamus.ilc.cnr.it/quamus#أَدَبَ_ar_sense1">
+        <rdf:type rdf:resource="http://ditmao.ilc.cnr.it:8082/DitamoOntologies/lemon.rdf#LexicalSense"/>
+        <lemon:equivalent rdf:resource="http://quamus.ilc.cnr.it/quamus#آدَبَ_ar_sense1"/>
+        <quamusLemon:troponym rdf:resource="http://quamus.ilc.cnr.it/quamus#دَعَى_ar_sense1"/>
+        <lemon:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">أَدَبَهُ يَأْدِبُهُ: دَعاهُ إلى طَعامِهِ، كآدَبَه إيداباً</lemon:value>
+        <quamusLemon:sumoRef rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Communication+</quamusLemon:sumoRef>
+        <quamusLemon:translation_text rdf:datatype="http://www.w3.org/2001/XMLSchema#string">to invite, ask to come</quamusLemon:translation_text>
+        <quamusLemon:wnRef rdf:datatype="http://www.w3.org/2001/XMLSchema#string">01469770</quamusLemon:wnRef>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://quamus.ilc.cnr.it/quamus#أَدَبَ_ar_sense2 -->
+
+
+    <owl:NamedIndividual rdf:about="http://quamus.ilc.cnr.it/quamus#أَدَبَ_ar_sense2">
+        <rdf:type rdf:resource="http://ditmao.ilc.cnr.it:8082/DitamoOntologies/lemon.rdf#LexicalSense"/>
+        <quamusLemon:troponym rdf:resource="http://quamus.ilc.cnr.it/quamus#عَمِلَ_ar_sense1"/>
+        <lemon:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">أَدَبَ يَأْدِبُ أَدَباً، مُحَرَّكَةً: عَمِلَ مَأْدَبَةً وأُدْبَةً</lemon:value>
+        <quamusLemon:sumoRef rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cooking+</quamusLemon:sumoRef>
+        <quamusLemon:translation_text rdf:datatype="http://www.w3.org/2001/XMLSchema#string">make</quamusLemon:translation_text>
+        <quamusLemon:wnRef rdf:datatype="http://www.w3.org/2001/XMLSchema#string">01664172</quamusLemon:wnRef>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://quamus.ilc.cnr.it/quamus#أَرُبَ_ar_entry -->
+
+
+    <owl:NamedIndividual rdf:about="http://quamus.ilc.cnr.it/quamus#أَرُبَ_ar_entry">
+        <rdf:type rdf:resource="http://ditmao.ilc.cnr.it:8082/DitamoOntologies/lemon.rdf#Word"/>
+        <lemon:canonicalForm rdf:resource="http://quamus.ilc.cnr.it/quamus#أَرُبَ_ar_lemma"/>
+        <lemon:sense rdf:resource="http://quamus.ilc.cnr.it/quamus#أَرُبَ_ar_sense1"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://quamus.ilc.cnr.it/quamus#أَرُبَ_ar_lemma -->
+
+
+    <owl:NamedIndividual rdf:about="http://quamus.ilc.cnr.it/quamus#أَرُبَ_ar_lemma">
+        <rdf:type rdf:resource="http://ditmao.ilc.cnr.it:8082/DitamoOntologies/lemon.rdf#Form"/>
+        <lexinfo:partOfSpeech rdf:resource="http://ditmao.ilc.cnr.it:8082/DitamoOntologies/lexinfo.owl#verb"/>
+        <lexinfo:termElement rdf:resource="http://quamus.ilc.cnr.it/quamusLemon.owl#triliteral"/>
+        <quamusLemon:transitivity rdf:resource="http://quamus.ilc.cnr.it/quamusLemon.owl#intransitive"/>
+        <quamusLemon:verbForm rdf:resource="http://quamus.ilc.cnr.it/quamusLemon.owl#I"/>
+        <lemon:writtenRep rdf:datatype="http://www.w3.org/2001/XMLSchema#string">أَرُبَ</lemon:writtenRep>
+        <quamusLemon:root rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ء ر ب</quamusLemon:root>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://quamus.ilc.cnr.it/quamus#أَرُبَ_ar_sense1 -->
+
+
+    <owl:NamedIndividual rdf:about="http://quamus.ilc.cnr.it/quamus#أَرُبَ_ar_sense1">
+        <rdf:type rdf:resource="http://ditmao.ilc.cnr.it:8082/DitamoOntologies/lemon.rdf#LexicalSense"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://quamus.ilc.cnr.it/quamus#العَرَبَة_ar_entry -->
+
+
+    <owl:NamedIndividual rdf:about="http://quamus.ilc.cnr.it/quamus#العَرَبَة_ar_entry">
+        <rdf:type rdf:resource="http://ditmao.ilc.cnr.it:8082/DitamoOntologies/lemon.rdf#Word"/>
+        <lemon:canonicalForm rdf:resource="http://quamus.ilc.cnr.it/quamus#العَرَبَة_ar_lemma"/>
+        <lemon:sense rdf:resource="http://quamus.ilc.cnr.it/quamus#العَرَبَة_ar_sense1"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://quamus.ilc.cnr.it/quamus#العَرَبَة_ar_lemma -->
+
+
+    <owl:NamedIndividual rdf:about="http://quamus.ilc.cnr.it/quamus#العَرَبَة_ar_lemma">
+        <rdf:type rdf:resource="http://ditmao.ilc.cnr.it:8082/DitamoOntologies/lemon.rdf#Form"/>
+        <lexinfo:partOfSpeech rdf:resource="http://ditmao.ilc.cnr.it:8082/DitamoOntologies/lexinfo.owl#properNoun"/>
+        <lemon:writtenRep rdf:datatype="http://www.w3.org/2001/XMLSchema#string">العَرَبَة</lemon:writtenRep>
+        <quamusLemon:note rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></quamusLemon:note>
+        <quamusLemon:plain_text rdf:datatype="http://www.w3.org/2001/XMLSchema#string">العَرَبَةُ، مُحَرَّكةً: النَّهْرُ الشديدُ الجَرْيِ، والنَّفْسُ، وناحِيةٌ قُرْبَ المَدينةِ [أقامَتْ قُرَيْشٌ بعَرَبَةَ، فَنُسِبَتِ العَرَبُ إليها، وهي باحَةُ العَرَبِ، وباحةُ دارِ أبي الفصاحَةِ إسماعيلَ، عليه السلام، واضْطُرَّ الشاعِرُ إلى تَسْكينِ رائِها، فقال وعَرْبَةُ أرضٌ ما يُحِلُّ حَرامَها منَ الناسِ إلاَّ اللَّوْذَعِيُّ الحُلاحِلُ يَعني النبيَّ صلَّى الله عليه وسلَّم</quamusLemon:plain_text>
+        <quamusLemon:root rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ع ر ب</quamusLemon:root>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://quamus.ilc.cnr.it/quamus#العَرَبَة_ar_sense1 -->
+
+
+    <owl:NamedIndividual rdf:about="http://quamus.ilc.cnr.it/quamus#العَرَبَة_ar_sense1">
+        <rdf:type rdf:resource="http://ditmao.ilc.cnr.it:8082/DitamoOntologies/lemon.rdf#LexicalSense"/>
+        <lemon:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">باحَةُ العَرَبِ</lemon:value>
+        <quamusLemon:translation_text rdf:datatype="http://www.w3.org/2001/XMLSchema#string">open space</quamusLemon:translation_text>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://quamus.ilc.cnr.it/quamus#تَقَيَّحَ_ar_entry -->
+
+
+    <owl:NamedIndividual rdf:about="http://quamus.ilc.cnr.it/quamus#تَقَيَّحَ_ar_entry">
+        <rdf:type rdf:resource="http://ditmao.ilc.cnr.it:8082/DitamoOntologies/lemon.rdf#Word"/>
+        <lemon:canonicalForm rdf:resource="http://quamus.ilc.cnr.it/quamus#تَقَيَّحَ_ar_lemma"/>
+        <lemon:sense rdf:resource="http://quamus.ilc.cnr.it/quamus#تَقَيَّحَ_ar_sense1"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://quamus.ilc.cnr.it/quamus#تَقَيَّحَ_ar_lemma -->
+
+
+    <owl:NamedIndividual rdf:about="http://quamus.ilc.cnr.it/quamus#تَقَيَّحَ_ar_lemma">
+        <rdf:type rdf:resource="http://ditmao.ilc.cnr.it:8082/DitamoOntologies/lemon.rdf#Form"/>
+        <lexinfo:partOfSpeech rdf:resource="http://ditmao.ilc.cnr.it:8082/DitamoOntologies/lexinfo.owl#verb"/>
+        <lexinfo:termElement rdf:resource="http://quamus.ilc.cnr.it/quamusLemon.owl#triliteral"/>
+        <quamusLemon:transitivity rdf:resource="http://quamus.ilc.cnr.it/quamusLemon.owl#intransitive"/>
+        <quamusLemon:verbForm rdf:resource="http://quamus.ilc.cnr.it/quamusLemon.owl#V"/>
+        <lemon:writtenRep rdf:datatype="http://www.w3.org/2001/XMLSchema#string">تَقَيَّحَ</lemon:writtenRep>
+        <quamusLemon:root rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ق ي ح</quamusLemon:root>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://quamus.ilc.cnr.it/quamus#تَقَيَّحَ_ar_sense1 -->
+
+
+    <owl:NamedIndividual rdf:about="http://quamus.ilc.cnr.it/quamus#تَقَيَّحَ_ar_sense1">
+        <rdf:type rdf:resource="http://ditmao.ilc.cnr.it:8082/DitamoOntologies/lemon.rdf#LexicalSense"/>
+        <lemon:equivalent rdf:resource="http://quamus.ilc.cnr.it/quamus#عَرِبَ_ar_sense5"/>
+        <lemon:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">عَرِبَ، كَفَرِحَ: نَشِطَ، ووَرِمَ، وتَقَيَّحَ</lemon:value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://quamus.ilc.cnr.it/quamus#دَخِيل_ar_entry -->
+
+
+    <owl:NamedIndividual rdf:about="http://quamus.ilc.cnr.it/quamus#دَخِيل_ar_entry">
+        <rdf:type rdf:resource="http://ditmao.ilc.cnr.it:8082/DitamoOntologies/lemon.rdf#Word"/>
+        <lemon:canonicalForm rdf:resource="http://quamus.ilc.cnr.it/quamus#دَخِيل_ar_lemma"/>
+        <lemon:sense rdf:resource="http://quamus.ilc.cnr.it/quamus#دَخِيل_ar_sense1"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://quamus.ilc.cnr.it/quamus#دَخِيل_ar_lemma -->
+
+
+    <owl:NamedIndividual rdf:about="http://quamus.ilc.cnr.it/quamus#دَخِيل_ar_lemma">
+        <rdf:type rdf:resource="http://ditmao.ilc.cnr.it:8082/DitamoOntologies/lemon.rdf#Form"/>
+        <lexinfo:partOfSpeech rdf:resource="http://ditmao.ilc.cnr.it:8082/DitamoOntologies/lexinfo.owl#adjective"/>
+        <lemon:writtenRep rdf:datatype="http://www.w3.org/2001/XMLSchema#string">دَخِيل</lemon:writtenRep>
+        <quamusLemon:plain_text rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></quamusLemon:plain_text>
+        <quamusLemon:root rdf:datatype="http://www.w3.org/2001/XMLSchema#string">د خ ل</quamusLemon:root>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://quamus.ilc.cnr.it/quamus#دَخِيل_ar_sense1 -->
+
+
+    <owl:NamedIndividual rdf:about="http://quamus.ilc.cnr.it/quamus#دَخِيل_ar_sense1">
+        <rdf:type rdf:resource="http://ditmao.ilc.cnr.it:8082/DitamoOntologies/lemon.rdf#LexicalSense"/>
+        <lemon:equivalent rdf:resource="http://quamus.ilc.cnr.it/quamus#مُتَعَرِّب_ar_sense2"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://quamus.ilc.cnr.it/quamus#دَعَى_ar_entry -->
+
+
+    <owl:NamedIndividual rdf:about="http://quamus.ilc.cnr.it/quamus#دَعَى_ar_entry">
+        <rdf:type rdf:resource="http://ditmao.ilc.cnr.it:8082/DitamoOntologies/lemon.rdf#Word"/>
+        <lemon:canonicalForm rdf:resource="http://quamus.ilc.cnr.it/quamus#دَعَى_ar_lemma"/>
+        <lemon:sense rdf:resource="http://quamus.ilc.cnr.it/quamus#دَعَى_ar_sense1"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://quamus.ilc.cnr.it/quamus#دَعَى_ar_lemma -->
+
+
+    <owl:NamedIndividual rdf:about="http://quamus.ilc.cnr.it/quamus#دَعَى_ar_lemma">
+        <rdf:type rdf:resource="http://ditmao.ilc.cnr.it:8082/DitamoOntologies/lemon.rdf#Form"/>
+        <lexinfo:partOfSpeech rdf:resource="http://ditmao.ilc.cnr.it:8082/DitamoOntologies/lexinfo.owl#verb"/>
+        <lexinfo:termElement rdf:resource="http://quamus.ilc.cnr.it/quamusLemon.owl#triliteral"/>
+        <quamusLemon:transitivity rdf:resource="http://quamus.ilc.cnr.it/quamusLemon.owl#transitive"/>
+        <quamusLemon:verbForm rdf:resource="http://quamus.ilc.cnr.it/quamusLemon.owl#I"/>
+        <lemon:writtenRep rdf:datatype="http://www.w3.org/2001/XMLSchema#string">دَعَى</lemon:writtenRep>
+        <quamusLemon:root rdf:datatype="http://www.w3.org/2001/XMLSchema#string">د ع ي</quamusLemon:root>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://quamus.ilc.cnr.it/quamus#دَعَى_ar_sense1 -->
+
+
+    <owl:NamedIndividual rdf:about="http://quamus.ilc.cnr.it/quamus#دَعَى_ar_sense1">
+        <rdf:type rdf:resource="http://ditmao.ilc.cnr.it:8082/DitamoOntologies/lemon.rdf#LexicalSense"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://quamus.ilc.cnr.it/quamus#صَرِيح_ar_entry -->
+
+
+    <owl:NamedIndividual rdf:about="http://quamus.ilc.cnr.it/quamus#صَرِيح_ar_entry">
+        <rdf:type rdf:resource="http://ditmao.ilc.cnr.it:8082/DitamoOntologies/lemon.rdf#Word"/>
+        <lemon:canonicalForm rdf:resource="http://quamus.ilc.cnr.it/quamus#صَرِيح_ar_lemma"/>
+        <lemon:sense rdf:resource="http://quamus.ilc.cnr.it/quamus#صَرِيح_ar_sense1"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://quamus.ilc.cnr.it/quamus#صَرِيح_ar_lemma -->
+
+
+    <owl:NamedIndividual rdf:about="http://quamus.ilc.cnr.it/quamus#صَرِيح_ar_lemma">
+        <rdf:type rdf:resource="http://ditmao.ilc.cnr.it:8082/DitamoOntologies/lemon.rdf#Form"/>
+        <lexinfo:partOfSpeech rdf:resource="http://ditmao.ilc.cnr.it:8082/DitamoOntologies/lexinfo.owl#adjective"/>
+        <lemon:writtenRep rdf:datatype="http://www.w3.org/2001/XMLSchema#string">صَرِيح</lemon:writtenRep>
+        <quamusLemon:plain_text rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></quamusLemon:plain_text>
+        <quamusLemon:root rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ص ر ح</quamusLemon:root>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://quamus.ilc.cnr.it/quamus#صَرِيح_ar_sense1 -->
+
+
+    <owl:NamedIndividual rdf:about="http://quamus.ilc.cnr.it/quamus#صَرِيح_ar_sense1">
+        <rdf:type rdf:resource="http://ditmao.ilc.cnr.it:8082/DitamoOntologies/lemon.rdf#LexicalSense"/>
+        <lemon:equivalent rdf:resource="http://quamus.ilc.cnr.it/quamus#مُتَعَرِّب_ar_sense1"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://quamus.ilc.cnr.it/quamus#عَرَبَة_ar_entry -->
+
+
+    <owl:NamedIndividual rdf:about="http://quamus.ilc.cnr.it/quamus#عَرَبَة_ar_entry">
+        <rdf:type rdf:resource="http://ditmao.ilc.cnr.it:8082/DitamoOntologies/lemon.rdf#Word"/>
+        <lemon:canonicalForm rdf:resource="http://quamus.ilc.cnr.it/quamus#عَرَبَة_ar_lemma"/>
+        <lemon:sense rdf:resource="http://quamus.ilc.cnr.it/quamus#عَرَبَة_ar_sense1"/>
+        <lemon:sense rdf:resource="http://quamus.ilc.cnr.it/quamus#عَرَبَة_ar_sense2"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://quamus.ilc.cnr.it/quamus#عَرَبَة_ar_lemma -->
+
+
+    <owl:NamedIndividual rdf:about="http://quamus.ilc.cnr.it/quamus#عَرَبَة_ar_lemma">
+        <rdf:type rdf:resource="http://ditmao.ilc.cnr.it:8082/DitamoOntologies/lemon.rdf#Form"/>
+        <lexinfo:partOfSpeech rdf:resource="http://ditmao.ilc.cnr.it:8082/DitamoOntologies/lexinfo.owl#noun"/>
+        <lemon:writtenRep rdf:datatype="http://www.w3.org/2001/XMLSchema#string">عَرَبَة</lemon:writtenRep>
+        <quamusLemon:plain_text rdf:datatype="http://www.w3.org/2001/XMLSchema#string">العَرَبَةُ، مُحَرَّكةً: النَّهْرُ الشديدُ الجَرْيِ، والنَّفْسُ، وناحِيةٌ قُرْبَ المَدينةِ [أقامَتْ قُرَيْشٌ بعَرَبَةَ، فَنُسِبَتِ العَرَبُ إليها، وهي باحَةُ العَرَبِ، وباحةُ دارِ أبي الفصاحَةِ إسماعيلَ، عليه السلام، واضْطُرَّ الشاعِرُ إلى تَسْكينِ رائِها، فقال : وعَرْبَةُ أرضٌ ما يُحِلُّ حَرامَها منَ الناسِ إلاَّ اللَّوْذَعِيُّ الحُلاحِلُ يَعني النبيَّ صلَّى الله عليه وسلَّم</quamusLemon:plain_text>
+        <quamusLemon:root rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ع ر ب</quamusLemon:root>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://quamus.ilc.cnr.it/quamus#عَرَبَة_ar_sense1 -->
+
+
+    <owl:NamedIndividual rdf:about="http://quamus.ilc.cnr.it/quamus#عَرَبَة_ar_sense1">
+        <rdf:type rdf:resource="http://ditmao.ilc.cnr.it:8082/DitamoOntologies/lemon.rdf#LexicalSense"/>
+        <lexinfo:hypernym rdf:resource="http://quamus.ilc.cnr.it/quamus#نَهْر_ar_sense1"/>
+        <lemon:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">النَّهْرُ الشديدُ الجَرْيِ</lemon:value>
+        <quamusLemon:sumoRef rdf:datatype="http://www.w3.org/2001/XMLSchema#string">River</quamusLemon:sumoRef>
+        <quamusLemon:translation_text rdf:datatype="http://www.w3.org/2001/XMLSchema#string">river</quamusLemon:translation_text>
+        <quamusLemon:wnRef rdf:datatype="http://www.w3.org/2001/XMLSchema#string">09411430</quamusLemon:wnRef>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://quamus.ilc.cnr.it/quamus#عَرَبَة_ar_sense2 -->
+
+
+    <owl:NamedIndividual rdf:about="http://quamus.ilc.cnr.it/quamus#عَرَبَة_ar_sense2">
+        <rdf:type rdf:resource="http://ditmao.ilc.cnr.it:8082/DitamoOntologies/lemon.rdf#LexicalSense"/>
+        <lemon:equivalent rdf:resource="http://quamus.ilc.cnr.it/quamus#نَفس_ar_sense1"/>
+        <lemon:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">نَفْس</lemon:value>
+        <quamusLemon:sumoRef rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SubjectiveAssessmentAttribute</quamusLemon:sumoRef>
+        <quamusLemon:translation_text rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Soul</quamusLemon:translation_text>
+        <quamusLemon:wnRef rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10627082</quamusLemon:wnRef>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://quamus.ilc.cnr.it/quamus#عَرِبَ_ar_entry -->
+
+
+    <owl:NamedIndividual rdf:about="http://quamus.ilc.cnr.it/quamus#عَرِبَ_ar_entry">
+        <rdf:type rdf:resource="http://ditmao.ilc.cnr.it:8082/DitamoOntologies/lemon.rdf#Word"/>
+        <lemon:canonicalForm rdf:resource="http://quamus.ilc.cnr.it/quamus#عَرِبَ_ar_lemma"/>
+        <lemon:sense rdf:resource="http://quamus.ilc.cnr.it/quamus#عَرِبَ_ar_sense1"/>
+        <lemon:sense rdf:resource="http://quamus.ilc.cnr.it/quamus#عَرِبَ_ar_sense2"/>
+        <lemon:sense rdf:resource="http://quamus.ilc.cnr.it/quamus#عَرِبَ_ar_sense3"/>
+        <lemon:sense rdf:resource="http://quamus.ilc.cnr.it/quamus#عَرِبَ_ar_sense4"/>
+        <lemon:sense rdf:resource="http://quamus.ilc.cnr.it/quamus#عَرِبَ_ar_sense5"/>
+        <lemon:sense rdf:resource="http://quamus.ilc.cnr.it/quamus#عَرِبَ_ar_sense6"/>
+        <lemon:sense rdf:resource="http://quamus.ilc.cnr.it/quamus#عَرِبَ_ar_sense7"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://quamus.ilc.cnr.it/quamus#عَرِبَ_ar_lemma -->
+
+
+    <owl:NamedIndividual rdf:about="http://quamus.ilc.cnr.it/quamus#عَرِبَ_ar_lemma">
+        <rdf:type rdf:resource="http://ditmao.ilc.cnr.it:8082/DitamoOntologies/lemon.rdf#Form"/>
+        <lexinfo:partOfSpeech rdf:resource="http://ditmao.ilc.cnr.it:8082/DitamoOntologies/lexinfo.owl#verb"/>
+        <lexinfo:termElement rdf:resource="http://quamus.ilc.cnr.it/quamusLemon.owl#triliteral"/>
+        <quamusLemon:transitivity rdf:resource="http://quamus.ilc.cnr.it/quamusLemon.owl#intransitive"/>
+        <quamusLemon:verbForm rdf:resource="http://quamus.ilc.cnr.it/quamusLemon.owl#I"/>
+        <lemon:writtenRep rdf:datatype="http://www.w3.org/2001/XMLSchema#string">عَرِبَ</lemon:writtenRep>
+        <quamusLemon:plain_text rdf:datatype="http://www.w3.org/2001/XMLSchema#string">عَرِبَ الجُرْحُ: بَقِيَ أثَرهُ بعْدَ البُرْءِ. عَرِبَتْ مَعِدَتُهُ: فَسَدَتْ. عَرِبَ النَّهَرُ: غَمَرَ، فهو عارِبٌ وعارِبَة. عَرِبَ البِئْرُ: كَثُرَ ماؤُها، فهي عَرِبَة</quamusLemon:plain_text>
+        <quamusLemon:root rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ع ر ب</quamusLemon:root>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://quamus.ilc.cnr.it/quamus#عَرِبَ_ar_sense1 -->
+
+
+    <owl:NamedIndividual rdf:about="http://quamus.ilc.cnr.it/quamus#عَرِبَ_ar_sense1">
+        <rdf:type rdf:resource="http://ditmao.ilc.cnr.it:8082/DitamoOntologies/lemon.rdf#LexicalSense"/>
+        <lemon:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">عَرِبَ الجُرْحُ: بَقِيَ أثَرهُ بعْدَ البُرْءِ</lemon:value>
+        <quamusLemon:sumoRef rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OrganOrTissueProcess</quamusLemon:sumoRef>
+        <quamusLemon:translation_text rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cicatrize</quamusLemon:translation_text>
+        <quamusLemon:wnRef rdf:datatype="http://www.w3.org/2001/XMLSchema#string">01551679</quamusLemon:wnRef>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://quamus.ilc.cnr.it/quamus#عَرِبَ_ar_sense2 -->
+
+
+    <owl:NamedIndividual rdf:about="http://quamus.ilc.cnr.it/quamus#عَرِبَ_ar_sense2">
+        <rdf:type rdf:resource="http://ditmao.ilc.cnr.it:8082/DitamoOntologies/lemon.rdf#LexicalSense"/>
+        <lemon:equivalent rdf:resource="http://quamus.ilc.cnr.it/quamus#فَسَدَ_ar_sense1"/>
+        <lemon:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">عَرِبَتْ مَعِدَتُهُ: فَسَدَتْ.</lemon:value>
+        <quamusLemon:sumoRef rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Increasing</quamusLemon:sumoRef>
+        <quamusLemon:translation_text rdf:datatype="http://www.w3.org/2001/XMLSchema#string">to be disordered, swollen</quamusLemon:translation_text>
+        <quamusLemon:wnRef rdf:datatype="http://www.w3.org/2001/XMLSchema#string">00256507</quamusLemon:wnRef>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://quamus.ilc.cnr.it/quamus#عَرِبَ_ar_sense3 -->
+
+
+    <owl:NamedIndividual rdf:about="http://quamus.ilc.cnr.it/quamus#عَرِبَ_ar_sense3">
+        <rdf:type rdf:resource="http://ditmao.ilc.cnr.it:8082/DitamoOntologies/lemon.rdf#LexicalSense"/>
+        <lemon:equivalent rdf:resource="http://quamus.ilc.cnr.it/quamus#غَمَرَ_ar_sense1"/>
+        <lemon:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">عَرِبَ النَّهَرُ: غَمَرَ، فهو عارِبٌ وعارِبَة</lemon:value>
+        <quamusLemon:sumoRef rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Damaging</quamusLemon:sumoRef>
+        <quamusLemon:translation_text rdf:datatype="http://www.w3.org/2001/XMLSchema#string">to flood</quamusLemon:translation_text>
+        <quamusLemon:wnRef rdf:datatype="http://www.w3.org/2001/XMLSchema#string">00217152</quamusLemon:wnRef>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://quamus.ilc.cnr.it/quamus#عَرِبَ_ar_sense4 -->
+
+
+    <owl:NamedIndividual rdf:about="http://quamus.ilc.cnr.it/quamus#عَرِبَ_ar_sense4">
+        <rdf:type rdf:resource="http://ditmao.ilc.cnr.it:8082/DitamoOntologies/lemon.rdf#LexicalSense"/>
+        <lemon:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">عَرِبَ البِئْرُ: كَثُرَ ماؤُها، فهي عَرِبَة</lemon:value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://quamus.ilc.cnr.it/quamus#عَرِبَ_ar_sense5 -->
+
+
+    <owl:NamedIndividual rdf:about="http://quamus.ilc.cnr.it/quamus#عَرِبَ_ar_sense5">
+        <rdf:type rdf:resource="http://ditmao.ilc.cnr.it:8082/DitamoOntologies/lemon.rdf#LexicalSense"/>
+        <lemon:equivalent rdf:resource="http://quamus.ilc.cnr.it/quamus#تَقَيَّحَ_ar_sense1"/>
+        <lemon:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">عَرِبَ، كَفَرِحَ: نَشِطَ، ووَرِمَ، وتَقَيَّحَ</lemon:value>
+        <quamusLemon:sumoRef rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DiseaseOrSyndrome+</quamusLemon:sumoRef>
+        <quamusLemon:translation_text rdf:datatype="http://www.w3.org/2001/XMLSchema#string">to suppurate, fester, be purulent</quamusLemon:translation_text>
+        <quamusLemon:wnRef rdf:datatype="http://www.w3.org/2001/XMLSchema#string">00096766</quamusLemon:wnRef>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://quamus.ilc.cnr.it/quamus#عَرِبَ_ar_sense6 -->
+
+
+    <owl:NamedIndividual rdf:about="http://quamus.ilc.cnr.it/quamus#عَرِبَ_ar_sense6">
+        <rdf:type rdf:resource="http://ditmao.ilc.cnr.it:8082/DitamoOntologies/lemon.rdf#LexicalSense"/>
+        <lemon:equivalent rdf:resource="http://quamus.ilc.cnr.it/quamus#وَرِمَ_ar_sense1"/>
+        <lemon:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">عَرِبَ، كَفَرِحَ: نَشِطَ، ووَرِمَ، وتَقَيَّحَ</lemon:value>
+        <quamusLemon:sumoRef rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Increasing+</quamusLemon:sumoRef>
+        <quamusLemon:translation_text rdf:datatype="http://www.w3.org/2001/XMLSchema#string">to be swollen;to swell, become swollen</quamusLemon:translation_text>
+        <quamusLemon:wnRef rdf:datatype="http://www.w3.org/2001/XMLSchema#string">00256507</quamusLemon:wnRef>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://quamus.ilc.cnr.it/quamus#عَرِبَ_ar_sense7 -->
+
+
+    <owl:NamedIndividual rdf:about="http://quamus.ilc.cnr.it/quamus#عَرِبَ_ar_sense7">
+        <rdf:type rdf:resource="http://ditmao.ilc.cnr.it:8082/DitamoOntologies/lemon.rdf#LexicalSense"/>
+        <lemon:equivalent rdf:resource="http://quamus.ilc.cnr.it/quamus#نَشِطَ_ar_sense1"/>
+        <lemon:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">عَرِبَ، كَفَرِحَ: نَشِطَ، ووَرِمَ، وتَقَيَّحَ</lemon:value>
+        <quamusLemon:translation_text rdf:datatype="http://www.w3.org/2001/XMLSchema#string">to be lively, animated, brisk, sprightly, vivacious, spirited, active</quamusLemon:translation_text>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://quamus.ilc.cnr.it/quamus#عَمِلَ_ar_entry -->
+
+
+    <owl:NamedIndividual rdf:about="http://quamus.ilc.cnr.it/quamus#عَمِلَ_ar_entry">
+        <rdf:type rdf:resource="http://ditmao.ilc.cnr.it:8082/DitamoOntologies/lemon.rdf#Word"/>
+        <lemon:canonicalForm rdf:resource="http://quamus.ilc.cnr.it/quamus#عَمِلَ_ar_lemma"/>
+        <lemon:sense rdf:resource="http://quamus.ilc.cnr.it/quamus#عَمِلَ_ar_sense1"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://quamus.ilc.cnr.it/quamus#عَمِلَ_ar_lemma -->
+
+
+    <owl:NamedIndividual rdf:about="http://quamus.ilc.cnr.it/quamus#عَمِلَ_ar_lemma">
+        <rdf:type rdf:resource="http://ditmao.ilc.cnr.it:8082/DitamoOntologies/lemon.rdf#Form"/>
+        <lexinfo:partOfSpeech rdf:resource="http://ditmao.ilc.cnr.it:8082/DitamoOntologies/lexinfo.owl#verb"/>
+        <lexinfo:termElement rdf:resource="http://quamus.ilc.cnr.it/quamusLemon.owl#triliteral"/>
+        <quamusLemon:transitivity rdf:resource="http://quamus.ilc.cnr.it/quamusLemon.owl#transitive"/>
+        <quamusLemon:verbForm rdf:resource="http://quamus.ilc.cnr.it/quamusLemon.owl#I"/>
+        <lemon:writtenRep rdf:datatype="http://www.w3.org/2001/XMLSchema#string">عَمِلَ</lemon:writtenRep>
+        <quamusLemon:root rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ع م ل</quamusLemon:root>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://quamus.ilc.cnr.it/quamus#عَمِلَ_ar_sense1 -->
+
+
+    <owl:NamedIndividual rdf:about="http://quamus.ilc.cnr.it/quamus#عَمِلَ_ar_sense1">
+        <rdf:type rdf:resource="http://ditmao.ilc.cnr.it:8082/DitamoOntologies/lemon.rdf#LexicalSense"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://quamus.ilc.cnr.it/quamus#عُرْب_ar_entry -->
+
+
+    <owl:NamedIndividual rdf:about="http://quamus.ilc.cnr.it/quamus#عُرْب_ar_entry">
+        <rdf:type rdf:resource="http://ditmao.ilc.cnr.it:8082/DitamoOntologies/lemon.rdf#Word"/>
+        <lemon:canonicalForm rdf:resource="http://quamus.ilc.cnr.it/quamus#عُرْب_ar_lemma"/>
+        <lemon:sense rdf:resource="http://quamus.ilc.cnr.it/quamus#عُرْب_ar_sense1"/>
+        <lemon:sense rdf:resource="http://quamus.ilc.cnr.it/quamus#عُرْب_ar_sense2"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://quamus.ilc.cnr.it/quamus#عُرْب_ar_lemma -->
+
+
+    <owl:NamedIndividual rdf:about="http://quamus.ilc.cnr.it/quamus#عُرْب_ar_lemma">
+        <rdf:type rdf:resource="http://ditmao.ilc.cnr.it:8082/DitamoOntologies/lemon.rdf#Form"/>
+        <lexinfo:partOfSpeech rdf:resource="http://ditmao.ilc.cnr.it:8082/DitamoOntologies/lexinfo.owl#noun"/>
+        <lemon:writtenRep rdf:datatype="http://www.w3.org/2001/XMLSchema#string">عُرْب</lemon:writtenRep>
+        <quamusLemon:plain_text rdf:datatype="http://www.w3.org/2001/XMLSchema#string">العُرْبُ، بالضم، وبالتحريكِ: خِلاف العَجَمِ، مُؤَنَّثٌ، وهُمْ سُكَّانُ الأمصار، أو عامٌّ.</quamusLemon:plain_text>
+        <quamusLemon:root rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ع ر ب</quamusLemon:root>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://quamus.ilc.cnr.it/quamus#عُرْب_ar_sense1 -->
+
+
+    <owl:NamedIndividual rdf:about="http://quamus.ilc.cnr.it/quamus#عُرْب_ar_sense1">
+        <rdf:type rdf:resource="http://ditmao.ilc.cnr.it:8082/DitamoOntologies/lemon.rdf#LexicalSense"/>
+        <lemon:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> سُكَّانُ الأمصار</lemon:value>
+        <quamusLemon:sumoRef rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EthnicGroup</quamusLemon:sumoRef>
+        <quamusLemon:translation_text rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Arabs, Arabians</quamusLemon:translation_text>
+        <quamusLemon:wnRef rdf:datatype="http://www.w3.org/2001/XMLSchema#string">09729530</quamusLemon:wnRef>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://quamus.ilc.cnr.it/quamus#عُرْب_ar_sense2 -->
+
+
+    <owl:NamedIndividual rdf:about="http://quamus.ilc.cnr.it/quamus#عُرْب_ar_sense2">
+        <rdf:type rdf:resource="http://ditmao.ilc.cnr.it:8082/DitamoOntologies/lemon.rdf#LexicalSense"/>
+        <lemon:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">خِلاف العَجَمِ</lemon:value>
+        <quamusLemon:sumoRef rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EthnicGroup</quamusLemon:sumoRef>
+        <quamusLemon:translation_text rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Arabs, Arabians</quamusLemon:translation_text>
+        <quamusLemon:wnRef rdf:datatype="http://www.w3.org/2001/XMLSchema#string">09729530</quamusLemon:wnRef>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://quamus.ilc.cnr.it/quamus#غَمَرَ_ar_entry -->
+
+
+    <owl:NamedIndividual rdf:about="http://quamus.ilc.cnr.it/quamus#غَمَرَ_ar_entry">
+        <rdf:type rdf:resource="http://ditmao.ilc.cnr.it:8082/DitamoOntologies/lemon.rdf#Word"/>
+        <lemon:canonicalForm rdf:resource="http://quamus.ilc.cnr.it/quamus#غَمَرَ_ar_lemma"/>
+        <lemon:sense rdf:resource="http://quamus.ilc.cnr.it/quamus#غَمَرَ_ar_sense1"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://quamus.ilc.cnr.it/quamus#غَمَرَ_ar_lemma -->
+
+
+    <owl:NamedIndividual rdf:about="http://quamus.ilc.cnr.it/quamus#غَمَرَ_ar_lemma">
+        <rdf:type rdf:resource="http://ditmao.ilc.cnr.it:8082/DitamoOntologies/lemon.rdf#Form"/>
+        <lexinfo:partOfSpeech rdf:resource="http://ditmao.ilc.cnr.it:8082/DitamoOntologies/lexinfo.owl#verb"/>
+        <lexinfo:termElement rdf:resource="http://quamus.ilc.cnr.it/quamusLemon.owl#triliteral"/>
+        <quamusLemon:transitivity rdf:resource="http://quamus.ilc.cnr.it/quamusLemon.owl#intransitive"/>
+        <quamusLemon:verbForm rdf:resource="http://quamus.ilc.cnr.it/quamusLemon.owl#I"/>
+        <lemon:writtenRep rdf:datatype="http://www.w3.org/2001/XMLSchema#string">غَمَرَ</lemon:writtenRep>
+        <quamusLemon:plain_text rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></quamusLemon:plain_text>
+        <quamusLemon:root rdf:datatype="http://www.w3.org/2001/XMLSchema#string">غ م ر</quamusLemon:root>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://quamus.ilc.cnr.it/quamus#غَمَرَ_ar_sense1 -->
+
+
+    <owl:NamedIndividual rdf:about="http://quamus.ilc.cnr.it/quamus#غَمَرَ_ar_sense1">
+        <rdf:type rdf:resource="http://ditmao.ilc.cnr.it:8082/DitamoOntologies/lemon.rdf#LexicalSense"/>
+        <lemon:equivalent rdf:resource="http://quamus.ilc.cnr.it/quamus#عَرِبَ_ar_sense3"/>
+        <lemon:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">عَرِبَ النَّهَرُ: غَمَرَ، فهو عارِبٌ وعارِبَة</lemon:value>
+        <quamusLemon:sumoRef rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Damaging</quamusLemon:sumoRef>
+        <quamusLemon:translation_text rdf:datatype="http://www.w3.org/2001/XMLSchema#string">to flood</quamusLemon:translation_text>
+        <quamusLemon:wnRef rdf:datatype="http://www.w3.org/2001/XMLSchema#string">00217152</quamusLemon:wnRef>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://quamus.ilc.cnr.it/quamus#فَسَدَ_ar_entry -->
+
+
+    <owl:NamedIndividual rdf:about="http://quamus.ilc.cnr.it/quamus#فَسَدَ_ar_entry">
+        <rdf:type rdf:resource="http://ditmao.ilc.cnr.it:8082/DitamoOntologies/lemon.rdf#Word"/>
+        <lemon:canonicalForm rdf:resource="http://quamus.ilc.cnr.it/quamus#فَسَدَ_ar_lemma"/>
+        <lemon:sense rdf:resource="http://quamus.ilc.cnr.it/quamus#فَسَدَ_ar_sense1"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://quamus.ilc.cnr.it/quamus#فَسَدَ_ar_lemma -->
+
+
+    <owl:NamedIndividual rdf:about="http://quamus.ilc.cnr.it/quamus#فَسَدَ_ar_lemma">
+        <rdf:type rdf:resource="http://ditmao.ilc.cnr.it:8082/DitamoOntologies/lemon.rdf#Form"/>
+        <lexinfo:partOfSpeech rdf:resource="http://ditmao.ilc.cnr.it:8082/DitamoOntologies/lexinfo.owl#verb"/>
+        <lexinfo:termElement rdf:resource="http://quamus.ilc.cnr.it/quamusLemon.owl#triliteral"/>
+        <quamusLemon:transitivity rdf:resource="http://quamus.ilc.cnr.it/quamusLemon.owl#intransitive"/>
+        <quamusLemon:verbForm rdf:resource="http://quamus.ilc.cnr.it/quamusLemon.owl#I"/>
+        <lemon:writtenRep rdf:datatype="http://www.w3.org/2001/XMLSchema#string">فَسَدَ</lemon:writtenRep>
+        <quamusLemon:plain_text rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></quamusLemon:plain_text>
+        <quamusLemon:root rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ف س د</quamusLemon:root>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://quamus.ilc.cnr.it/quamus#فَسَدَ_ar_sense1 -->
+
+
+    <owl:NamedIndividual rdf:about="http://quamus.ilc.cnr.it/quamus#فَسَدَ_ar_sense1">
+        <rdf:type rdf:resource="http://ditmao.ilc.cnr.it:8082/DitamoOntologies/lemon.rdf#LexicalSense"/>
+        <lemon:equivalent rdf:resource="http://quamus.ilc.cnr.it/quamus#عَرِبَ_ar_sense2"/>
+        <lemon:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">عَرِبَتْ مَعِدَتُهُ: فَسَدَتْ. </lemon:value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://quamus.ilc.cnr.it/quamus#قَصَبَة_ar_entry -->
+
+
+    <owl:NamedIndividual rdf:about="http://quamus.ilc.cnr.it/quamus#قَصَبَة_ar_entry">
+        <rdf:type rdf:resource="http://ditmao.ilc.cnr.it:8082/DitamoOntologies/lemon.rdf#Word"/>
+        <lemon:canonicalForm rdf:resource="http://quamus.ilc.cnr.it/quamus#قَصَبَة_ar_lemma"/>
+        <lemon:sense rdf:resource="http://quamus.ilc.cnr.it/quamus#قَصَبَة_ar_sense1"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://quamus.ilc.cnr.it/quamus#قَصَبَة_ar_lemma -->
+
+
+    <owl:NamedIndividual rdf:about="http://quamus.ilc.cnr.it/quamus#قَصَبَة_ar_lemma">
+        <rdf:type rdf:resource="http://ditmao.ilc.cnr.it:8082/DitamoOntologies/lemon.rdf#Form"/>
+        <lexinfo:partOfSpeech rdf:resource="http://ditmao.ilc.cnr.it:8082/DitamoOntologies/lexinfo.owl#noun"/>
+        <lemon:writtenRep rdf:datatype="http://www.w3.org/2001/XMLSchema#string">قَصَبَة</lemon:writtenRep>
+        <quamusLemon:root rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ق ص ب</quamusLemon:root>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://quamus.ilc.cnr.it/quamus#قَصَبَة_ar_sense1 -->
+
+
+    <owl:NamedIndividual rdf:about="http://quamus.ilc.cnr.it/quamus#قَصَبَة_ar_sense1">
+        <rdf:type rdf:resource="http://ditmao.ilc.cnr.it:8082/DitamoOntologies/lemon.rdf#LexicalSense"/>
+        <lemon:equivalent rdf:resource="http://quamus.ilc.cnr.it/quamus#أَباءة_ar_sense1"/>
+        <lemon:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">الأَباءةُ، كَعَباءَة: القَصَبَةُ. ج. أَباءُ</lemon:value>
+        <quamusLemon:sumoRef rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BodyPart</quamusLemon:sumoRef>
+        <quamusLemon:wnRef rdf:datatype="http://www.w3.org/2001/XMLSchema#string">112136206</quamusLemon:wnRef>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://quamus.ilc.cnr.it/quamus#مُتَعَرِّب_ar_entry -->
+
+
+    <owl:NamedIndividual rdf:about="http://quamus.ilc.cnr.it/quamus#مُتَعَرِّب_ar_entry">
+        <rdf:type rdf:resource="http://ditmao.ilc.cnr.it:8082/DitamoOntologies/lemon.rdf#Word"/>
+        <lemon:canonicalForm rdf:resource="http://quamus.ilc.cnr.it/quamus#مُتَعَرِّب_ar_lemma"/>
+        <lemon:sense rdf:resource="http://quamus.ilc.cnr.it/quamus#مُتَعَرِّب_ar_sense1"/>
+        <lemon:sense rdf:resource="http://quamus.ilc.cnr.it/quamus#مُتَعَرِّب_ar_sense2"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://quamus.ilc.cnr.it/quamus#مُتَعَرِّب_ar_lemma -->
+
+
+    <owl:NamedIndividual rdf:about="http://quamus.ilc.cnr.it/quamus#مُتَعَرِّب_ar_lemma">
+        <rdf:type rdf:resource="http://ditmao.ilc.cnr.it:8082/DitamoOntologies/lemon.rdf#Form"/>
+        <lexinfo:partOfSpeech rdf:resource="http://ditmao.ilc.cnr.it:8082/DitamoOntologies/lexinfo.owl#noun"/>
+        <lemon:writtenRep rdf:datatype="http://www.w3.org/2001/XMLSchema#string">مُتَعَرِّب</lemon:writtenRep>
+        <quamusLemon:plain_text rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></quamusLemon:plain_text>
+        <quamusLemon:root rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ع ر ب</quamusLemon:root>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://quamus.ilc.cnr.it/quamus#مُتَعَرِّب_ar_sense1 -->
+
+
+    <owl:NamedIndividual rdf:about="http://quamus.ilc.cnr.it/quamus#مُتَعَرِّب_ar_sense1">
+        <rdf:type rdf:resource="http://ditmao.ilc.cnr.it:8082/DitamoOntologies/lemon.rdf#LexicalSense"/>
+        <lemon:equivalent rdf:resource="http://quamus.ilc.cnr.it/quamus#صَرِيح_ar_sense1"/>
+        <quamusLemon:sumoRef rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SubjectiveAssessmentAttribute</quamusLemon:sumoRef>
+        <quamusLemon:translation_text rdf:datatype="http://www.w3.org/2001/XMLSchema#string">extraneous; foreign, exotic; foreigner</quamusLemon:translation_text>
+        <quamusLemon:wnRef rdf:datatype="http://www.w3.org/2001/XMLSchema#string">01035559</quamusLemon:wnRef>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://quamus.ilc.cnr.it/quamus#مُتَعَرِّب_ar_sense2 -->
+
+
+    <owl:NamedIndividual rdf:about="http://quamus.ilc.cnr.it/quamus#مُتَعَرِّب_ar_sense2">
+        <rdf:type rdf:resource="http://ditmao.ilc.cnr.it:8082/DitamoOntologies/lemon.rdf#LexicalSense"/>
+        <lemon:equivalent rdf:resource="http://quamus.ilc.cnr.it/quamus#دَخِيل_ar_sense1"/>
+        <quamusLemon:translation_text rdf:datatype="http://www.w3.org/2001/XMLSchema#string">extraneous; foreign; exotic; foreigner </quamusLemon:translation_text>
+        <quamusLemon:wnRef rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SubjectiveAssessmentAttribute</quamusLemon:wnRef>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://quamus.ilc.cnr.it/quamus#نَشِطَ_ar_entry -->
+
+
+    <owl:NamedIndividual rdf:about="http://quamus.ilc.cnr.it/quamus#نَشِطَ_ar_entry">
+        <rdf:type rdf:resource="http://ditmao.ilc.cnr.it:8082/DitamoOntologies/lemon.rdf#Word"/>
+        <lemon:canonicalForm rdf:resource="http://quamus.ilc.cnr.it/quamus#نَشِطَ_ar_lemma"/>
+        <lemon:sense rdf:resource="http://quamus.ilc.cnr.it/quamus#نَشِطَ_ar_sense1"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://quamus.ilc.cnr.it/quamus#نَشِطَ_ar_lemma -->
+
+
+    <owl:NamedIndividual rdf:about="http://quamus.ilc.cnr.it/quamus#نَشِطَ_ar_lemma">
+        <rdf:type rdf:resource="http://ditmao.ilc.cnr.it:8082/DitamoOntologies/lemon.rdf#Form"/>
+        <lexinfo:partOfSpeech rdf:resource="http://ditmao.ilc.cnr.it:8082/DitamoOntologies/lexinfo.owl#verb"/>
+        <lexinfo:termElement rdf:resource="http://quamus.ilc.cnr.it/quamusLemon.owl#triliteral"/>
+        <quamusLemon:transitivity rdf:resource="http://quamus.ilc.cnr.it/quamusLemon.owl#intransitive"/>
+        <quamusLemon:verbForm rdf:resource="http://quamus.ilc.cnr.it/quamusLemon.owl#I"/>
+        <lemon:writtenRep rdf:datatype="http://www.w3.org/2001/XMLSchema#string">نَشِطَ</lemon:writtenRep>
+        <quamusLemon:root rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ن ش ط</quamusLemon:root>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://quamus.ilc.cnr.it/quamus#نَشِطَ_ar_sense1 -->
+
+
+    <owl:NamedIndividual rdf:about="http://quamus.ilc.cnr.it/quamus#نَشِطَ_ar_sense1">
+        <rdf:type rdf:resource="http://ditmao.ilc.cnr.it:8082/DitamoOntologies/lemon.rdf#LexicalSense"/>
+        <lemon:equivalent rdf:resource="http://quamus.ilc.cnr.it/quamus#عَرِبَ_ar_sense7"/>
+        <lemon:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">عَرِبَ، كَفَرِحَ: نَشِطَ، ووَرِمَ، وتَقَيَّحَ</lemon:value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://quamus.ilc.cnr.it/quamus#نَفس_ar_entry -->
+
+
+    <owl:NamedIndividual rdf:about="http://quamus.ilc.cnr.it/quamus#نَفس_ar_entry">
+        <rdf:type rdf:resource="http://ditmao.ilc.cnr.it:8082/DitamoOntologies/lemon.rdf#Word"/>
+        <lemon:canonicalForm rdf:resource="http://quamus.ilc.cnr.it/quamus#نَفس_ar_lemma"/>
+        <lemon:sense rdf:resource="http://quamus.ilc.cnr.it/quamus#نَفس_ar_sense1"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://quamus.ilc.cnr.it/quamus#نَفس_ar_lemma -->
+
+
+    <owl:NamedIndividual rdf:about="http://quamus.ilc.cnr.it/quamus#نَفس_ar_lemma">
+        <rdf:type rdf:resource="http://ditmao.ilc.cnr.it:8082/DitamoOntologies/lemon.rdf#Form"/>
+        <lexinfo:partOfSpeech rdf:resource="http://ditmao.ilc.cnr.it:8082/DitamoOntologies/lexinfo.owl#noun"/>
+        <lemon:writtenRep rdf:datatype="http://www.w3.org/2001/XMLSchema#string">نَفس</lemon:writtenRep>
+        <quamusLemon:plain_text rdf:datatype="http://www.w3.org/2001/XMLSchema#string">العَرَبَةُ، مُحَرَّكةً: النَّهْرُ الشديدُ الجَرْيِ، والنَّفْسُ، وناحِيةٌ قُرْبَ المَدينةِ [أقامَتْ قُرَيْشٌ بعَرَبَةَ، فَنُسِبَتِ العَرَبُ إليها، وهي باحَةُ العَرَبِ، وباحةُ دارِ أبي الفصاحَةِ إسماعيلَ، عليه السلام، واضْطُرَّ الشاعِرُ إلى تَسْكينِ رائِها، فقال وعَرْبَةُ أرضٌ ما يُحِلُّ حَرامَها منَ الناسِ إلاَّ اللَّوْذَعِيُّ الحُلاحِلُ يَعني النبيَّ صلَّى الله عليه وسلَّم</quamusLemon:plain_text>
+        <quamusLemon:root rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ن ف س</quamusLemon:root>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://quamus.ilc.cnr.it/quamus#نَفس_ar_sense1 -->
+
+
+    <owl:NamedIndividual rdf:about="http://quamus.ilc.cnr.it/quamus#نَفس_ar_sense1">
+        <rdf:type rdf:resource="http://ditmao.ilc.cnr.it:8082/DitamoOntologies/lemon.rdf#LexicalSense"/>
+        <lemon:equivalent rdf:resource="http://quamus.ilc.cnr.it/quamus#عَرَبَة_ar_sense2"/>
+        <quamusLemon:sumoRef rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SubjectiveAssessmentAttribute</quamusLemon:sumoRef>
+        <quamusLemon:translation_text rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Soul</quamusLemon:translation_text>
+        <quamusLemon:wnRef rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10627082</quamusLemon:wnRef>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://quamus.ilc.cnr.it/quamus#نَهْر_ar_entry -->
+
+
+    <owl:NamedIndividual rdf:about="http://quamus.ilc.cnr.it/quamus#نَهْر_ar_entry">
+        <rdf:type rdf:resource="http://ditmao.ilc.cnr.it:8082/DitamoOntologies/lemon.rdf#Word"/>
+        <lemon:canonicalForm rdf:resource="http://quamus.ilc.cnr.it/quamus#نَهْر_ar_lemma"/>
+        <lemon:sense rdf:resource="http://quamus.ilc.cnr.it/quamus#نَهْر_ar_sense1"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://quamus.ilc.cnr.it/quamus#نَهْر_ar_lemma -->
+
+
+    <owl:NamedIndividual rdf:about="http://quamus.ilc.cnr.it/quamus#نَهْر_ar_lemma">
+        <rdf:type rdf:resource="http://ditmao.ilc.cnr.it:8082/DitamoOntologies/lemon.rdf#Form"/>
+        <lexinfo:partOfSpeech rdf:resource="http://ditmao.ilc.cnr.it:8082/DitamoOntologies/lexinfo.owl#noun"/>
+        <lemon:writtenRep rdf:datatype="http://www.w3.org/2001/XMLSchema#string">نَهْر</lemon:writtenRep>
+        <quamusLemon:root rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ن ه ر </quamusLemon:root>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://quamus.ilc.cnr.it/quamus#نَهْر_ar_sense1 -->
+
+
+    <owl:NamedIndividual rdf:about="http://quamus.ilc.cnr.it/quamus#نَهْر_ar_sense1">
+        <rdf:type rdf:resource="http://ditmao.ilc.cnr.it:8082/DitamoOntologies/lemon.rdf#LexicalSense"/>
+        <lexinfo:hyponym rdf:resource="http://quamus.ilc.cnr.it/quamus#عَرَبَة_ar_sense1"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://quamus.ilc.cnr.it/quamus#وَرِمَ_ar_entry -->
+
+
+    <owl:NamedIndividual rdf:about="http://quamus.ilc.cnr.it/quamus#وَرِمَ_ar_entry">
+        <rdf:type rdf:resource="http://ditmao.ilc.cnr.it:8082/DitamoOntologies/lemon.rdf#Word"/>
+        <lemon:canonicalForm rdf:resource="http://quamus.ilc.cnr.it/quamus#وَرِمَ_ar_lemma"/>
+        <lemon:sense rdf:resource="http://quamus.ilc.cnr.it/quamus#وَرِمَ_ar_sense1"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://quamus.ilc.cnr.it/quamus#وَرِمَ_ar_lemma -->
+
+
+    <owl:NamedIndividual rdf:about="http://quamus.ilc.cnr.it/quamus#وَرِمَ_ar_lemma">
+        <rdf:type rdf:resource="http://ditmao.ilc.cnr.it:8082/DitamoOntologies/lemon.rdf#Form"/>
+        <lexinfo:partOfSpeech rdf:resource="http://ditmao.ilc.cnr.it:8082/DitamoOntologies/lexinfo.owl#verb"/>
+        <lexinfo:termElement rdf:resource="http://quamus.ilc.cnr.it/quamusLemon.owl#triliteral"/>
+        <quamusLemon:transitivity rdf:resource="http://quamus.ilc.cnr.it/quamusLemon.owl#intransitive"/>
+        <quamusLemon:verbForm rdf:resource="http://quamus.ilc.cnr.it/quamusLemon.owl#I"/>
+        <lemon:writtenRep rdf:datatype="http://www.w3.org/2001/XMLSchema#string">وَرِمَ</lemon:writtenRep>
+        <quamusLemon:root rdf:datatype="http://www.w3.org/2001/XMLSchema#string">و ر م</quamusLemon:root>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://quamus.ilc.cnr.it/quamus#وَرِمَ_ar_sense1 -->
+
+
+    <owl:NamedIndividual rdf:about="http://quamus.ilc.cnr.it/quamus#وَرِمَ_ar_sense1">
+        <rdf:type rdf:resource="http://ditmao.ilc.cnr.it:8082/DitamoOntologies/lemon.rdf#LexicalSense"/>
+        <lemon:equivalent rdf:resource="http://quamus.ilc.cnr.it/quamus#عَرِبَ_ar_sense6"/>
+        <lemon:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">عَرِبَ، كَفَرِحَ: نَشِطَ، ووَرِمَ، وتَقَيَّحَ</lemon:value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://quamus.ilc.cnr.it/quamusLemon.owl#ditmao_quadriliteral -->
+
+
+    <owl:NamedIndividual rdf:about="http://quamus.ilc.cnr.it/quamusLemon.owl#ditmao_quadriliteral"/>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 5.0.0.20160228-2008) https://github.com/owlcs/owlapi/ -->
+
+
